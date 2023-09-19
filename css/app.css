@@ -1,0 +1,94 @@
+
+:root {
+
+}
+
+/* DEFAULT SETTINGS */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+ul,
+ol,
+menu {
+	list-style: none;
+}
+
+figure > img {
+	display: block;
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: currentColor;
+	display: inline-block;
+}
+
+/* LAYOUT */
+
+#container-viewport {
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+}
+
+.container {
+	max-width: 1164px;
+	margin: 0 auto;
+}
+
+.container-medium {
+	max-width: 1050px;
+	margin: 0 auto;
+}
+
+.container-small {
+	max-width: 880px;
+	margin: 0 auto;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	row-gap: 24px;
+}
+
+.row > [class^='col'] {
+	padding: 0 12px;
+}
+
+/* .col-4 {
+	flex-basis: 100%;
+}
+
+.col-6 {
+	flex-basis: 100%;
+}
+
+.col-8 {
+	flex-basis: 100%;
+}
+
+.col-12 {
+	flex-basis: 100%;
+} */
+
+/* UTILITY CLASS */
+
+.justify-between {
+	justify-content: space-between;
+}
+.align-items-center {
+	align-items: center;
+}
