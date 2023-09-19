@@ -5,6 +5,7 @@
    --grey-light: #141922;
    --light: white;
    --dark: black;
+   --grey-text:#858585;
 
    --radius-lg: 50px;
    --radius-full: 999px;
@@ -21,6 +22,7 @@
 
 body {
 	font-family: 'Open Sans', sans-serif;
+    color: white;
 }
 
 ul,
@@ -117,8 +119,59 @@ a {
 	align-items: center;
 }
 
+.flex--shrink {
+    flex-shrink: 1;
+}
+
+/* -------- */
+
+/* ASIDE TOOLBAR */
+
+.app__toolbar .song-title {
+    color: white;
+}
+
+.app__toolbar .song-autor {
+    color: var(--grey-text);
+}
+
+.toolbar-song-image .song-image {
+    width: 40px;
+    height: 40px;
+}
+
+input {
+    height: 4px;
+    appearance: none;
+    width: 50%;
+    border-radius: 8px;
+    background-color: var(--grey-text);
+    position: relative;
+    outline: none;
+}
+
+.toolbar-song__preview {
+    padding: 40px 0;
+}
+
+.toolbar-button .button-song {
+    text-align: center;
+}
+
+.toolbar-button .button-song > li{
+    padding: 8px;
+    display: inline-block;
+
+}
+
+
+    
+
+
+
 
 /* debug */
+
 
 
 .debug .container-medium,

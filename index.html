@@ -15,7 +15,7 @@
        
         <main class="app__content container-large display--flex direction--row">
             
-            <aside class="app__menu container-menu"></aside>
+            <aside class="app__menu container-menu flex--shrink"></aside>
            
             <div class="app__content container-content">
                 <div class="content__bar-upgrade"></div>
@@ -24,23 +24,50 @@
         
         </main>
 
-        <aside class="app__toolbar container-toolbar">
-            <div class="toolbar">
-                <ul>
-                    <li>hufhuhu</li>
-                    <li>crcnjrncjr</li>
-                    <li></li>
+        <aside class="app__toolbar container-toolbar display--flex justify--between">
+            <div class="toolbar toolbar-song__preview">
+                <ul class="display--flex">
+                    <li>
+                        <figure class="toolbar-song-image">
+                           <img class="song-image" src="./img/sinister.jpeg" alt=""></li>
+                        </figure>   
+                    <li>
+                        <div class="song-title">Sinister</div>
+                        <div class="song-autor">Brano Nome</div>
+                    </li>
+                    <li>
+                        <div><a href="#"><i class="fa-regular fa-heart" style="color: #919191;"></i></a></div>
+                        <div><a href="#"><i class="fa-regular fa-folder" style="color: #919191;"></i></a></div>
+                    </li>
                 </ul>
             </div>
-            <div class="toolbar">
+            <div class="toolbar ">
+                 <div class="toolbar-button ">
+                    <ul class="button-song ">
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-shuffle" style="color: #ffffff;"></i>
+                            </a>
+                        </li>
+                        <li><a href="#"><i class="fa-solid fa-forward-step fa-rotate-180" style="color: #ffffff;"></i></a></li>
+                        <li><a href="#"><i class="fa-regular fa-circle-play" style="color: #ffffff;"></i></a></li>
+                        <li><a href="#"><i class="fa-solid fa-forward-step" style="color: #ffffff;"></i></a></li>
+                        <li><a href="#"><i class="fa-solid fa-rotate-right" style="color: #ffffff;"></i></a></li>
+                    </ul>
+                 </div>
 
+                 <div class="toolbar-time ">
+                     <span class="time">0:25</span>
+                     <input type="range" id="seek-slider" max="100" value="40">
+                     <span class="time">4:35</span>
+                 </div>
             </div>
             <div class="toolbar">
-                <ul>
-                    <li>cjncnc</li>
-                    <li>cnjcn</li>
-                    <li>cncjn</li>
-                    <li></li>
+                <ul class="display--flex">
+                    <li><i class="fa-solid fa-bars" style="color: #ffffff;"></i></li>
+                    <li><i class="fa-solid fa-desktop" style="color: #ffffff;"></i></li>
+                    <li><i class="fa-solid fa-volume-high" style="color: #ffffff;"></i></li>
+                    <input type="range" id="volume-slider" max="100" value="20">
                 </ul>
             </div>
         </aside>
