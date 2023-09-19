@@ -140,13 +140,17 @@ a {
 }
 
 .toolbar-song-image .song-image {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
 }
 
+.button-song  [class^='icon'] {
+    font-size: 19px;
+}
 
-.icon {
-    font-size: 29px;
+.button-song .icon-play {
+    font-size: 25px;
+    margin: 0 5px;
 }
 
 .toolbar-button .button-song {
@@ -169,12 +173,22 @@ a {
     flex-direction: row;
     align-items: center;
     flex-wrap: nowrap;
+    text-align: center;
 }
 
 .toolbar.toolbar-button {
+    max-width: 50%;
     flex-direction: column;
-    align-content: center;
+    align-items: center;
     
+}
+
+.toolbar-volume .icon-right, .icon-left {
+    padding: 0 3px;
+}
+
+input[type='range'] {
+    width: 25%;
 }
 
 
