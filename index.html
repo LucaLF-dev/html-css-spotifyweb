@@ -25,7 +25,8 @@
         </main>
 
         <aside class="app__toolbar container-toolbar display--flex justify--between">
-            <div class="toolbar toolbar-song__preview">
+           
+            <div class="toolbar toolbar-song__preview display--flex">
                 <ul class="display--flex">
                     <li>
                         <figure class="toolbar-song-image">
@@ -41,28 +42,38 @@
                     </li>
                 </ul>
             </div>
-            <div class="toolbar ">
-                 <div class="toolbar-button ">
+            
+            <div class="toolbar toolbar-button display--flex">
+                 <div class="button-list ">
                     <ul class="button-song ">
                         <li>
-                            <a href="#">
-                                <i class="fa-solid fa-shuffle" style="color: #ffffff;"></i>
+                            <a href="#" >
+                                <i class="icon fa-solid fa-shuffle"></i>
                             </a>
                         </li>
-                        <li><a href="#"><i class="fa-solid fa-forward-step fa-rotate-180" style="color: #ffffff;"></i></a></li>
-                        <li><a href="#"><i class="fa-regular fa-circle-play" style="color: #ffffff;"></i></a></li>
-                        <li><a href="#"><i class="fa-solid fa-forward-step" style="color: #ffffff;"></i></a></li>
-                        <li><a href="#"><i class="fa-solid fa-rotate-right" style="color: #ffffff;"></i></a></li>
+                        <li>
+                            <a href="#"><i class=" icon fa-forward-step fa-rotate-180" style="color: #ffffff;"></i>
+                            </a></li>
+                        <li>
+                            <a href="#"><i class="icon fa-regular fa-circle-play" style="color: #ffffff;"></i>
+                            </a></li>
+                        <li>
+                            <a href="#"><i class="icon  fa-solid fa-forward-step" style="color: #ffffff;"></i>
+                            </a></li>
+                        <li>
+                            <a href="#"><i class="icon fa-solid fa-rotate-right" style="color: #ffffff;"></i>
+                            </a></li>
                     </ul>
                  </div>
 
-                 <div class="toolbar-time ">
+                 <div class="toolbar-time">
                      <span class="time">0:25</span>
                      <input type="range" id="seek-slider" max="100" value="40">
                      <span class="time">4:35</span>
                  </div>
             </div>
-            <div class="toolbar">
+           
+            <div class="toolbar toolbar-volume display--flex">
                 <ul class="display--flex">
                     <li><i class="fa-solid fa-bars" style="color: #ffffff;"></i></li>
                     <li><i class="fa-solid fa-desktop" style="color: #ffffff;"></i></li>

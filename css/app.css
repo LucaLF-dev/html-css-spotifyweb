@@ -127,6 +127,10 @@ a {
 
 /* ASIDE TOOLBAR */
 
+.app__toolbar.container-toolbar {
+    padding: 10px 10px;
+}
+
 .app__toolbar .song-title {
     color: white;
 }
@@ -140,18 +144,9 @@ a {
     height: 40px;
 }
 
-input {
-    height: 4px;
-    appearance: none;
-    width: 50%;
-    border-radius: 8px;
-    background-color: var(--grey-text);
-    position: relative;
-    outline: none;
-}
 
-.toolbar-song__preview {
-    padding: 40px 0;
+.icon {
+    font-size: 29px;
 }
 
 .toolbar-button .button-song {
@@ -164,8 +159,23 @@ input {
 
 }
 
+.toolbar.toolbar-song__preview {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
 
+.toolbar.toolbar-volume{
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.toolbar.toolbar-button {
+    flex-direction: column;
+    align-content: center;
     
+}
 
 
 
