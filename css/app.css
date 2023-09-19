@@ -1,9 +1,10 @@
 
 :root {
-   --dark-grey: #141922;
-   --grey-tool: #141922;
+   --dark-grey: #080B12;
+   --grey-tool: #282828;
    --grey-light: #141922;
    --light: white;
+   --dark: black;
 
    --radius-lg: 50px;
    --radius-full: 999px;
@@ -47,22 +48,26 @@ a {
 #container-viewport {
     width: 100vw;
     height: 100vh;
-    background-color: aqua;
+
 }
 
-.container {
-	max-width: 1164px;
-	margin: 0 auto;
+.container-toolbar {
+    height: auto;
+    background-color: var(--grey-tool);
 }
 
-.container-medium {
-	max-width: 1050px;
-	margin: 0 auto;
+.container-large {
+	flex-grow: 1;
 }
 
-.container-small {
-	max-width: 880px;
-	margin: 0 auto;
+.container-content {
+    flex-grow: 1;
+    background-color:var(--grey-light);
+}
+
+.container-menu {
+	width: 50px;
+    background-color: var(--dark);
 }
 
 .row {
@@ -93,9 +98,48 @@ a {
 
 /* UTILITY CLASS */
 
-.justify-between {
+.display--flex {
+    display: flex;
+}
+
+.direction--column {
+    flex-direction: column;
+}
+
+.direction--row {
+    flex-direction: row;
+}
+
+.justify--between {
 	justify-content: space-between;
 }
-.align-items-center {
+.align--items-center {
 	align-items: center;
+}
+
+
+/* debug */
+
+
+.debug .container-medium,
+.debug .container-small {
+	border: 3px solid var(black);
+	padding: 10px;
+}
+
+.debug .row {
+	border: 1px solid var(--purple);
+	padding: 10px;
+}
+.debug [class^='col'] {
+	border: 1px solid orange;
+	padding: 10px;
+}
+
+.debug .card {
+	min-height: 100px;
+}
+
+.debug .container-toolbar {
+    background-color: var(--dark-grey);
 }
