@@ -1,5 +1,12 @@
 
 :root {
+   --dark-grey: #141922;
+   --grey-tool: #141922;
+   --grey-light: #141922;
+   --light: white;
+
+   --radius-lg: 50px;
+   --radius-full: 999px;
 
 }
 
