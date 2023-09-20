@@ -23,7 +23,22 @@
         display: block;
     }
     
+    .menu-link .font-link {
+        font-size: 13px;
+        font-weight: 400;
+        display: flex;
+        padding-left: 10px;
+    }
+
+    .menu-link .link-home {
+        color: white;
+    }
+
+    .app__menu .playlist-menu {
+        display: flex;
+    }
 }  
+
 
 
 

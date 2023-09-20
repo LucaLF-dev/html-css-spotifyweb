@@ -197,6 +197,7 @@ a {
 
 .app__menu {
     padding: 5px 10px;
+    color: #616161;
 }
 
 .app__content .account-menu{
@@ -211,6 +212,29 @@ a {
 }
 
 .nav-menu .image-big {
+    display: none;
+}
+
+.menu-link .font-link {
+    font-size: 11px;
+    display: none;
+}
+
+.nav-menu .logo-image {
+    padding-bottom: 15px;
+}
+
+.nav-menu .menu-link {
+    gap: 15px;
+}
+
+.menu-list .menu-image {
+    width: 26px;
+    aspect-ratio: 1;
+
+}
+
+.app__menu .playlist-menu {
     display: none;
 }
 
