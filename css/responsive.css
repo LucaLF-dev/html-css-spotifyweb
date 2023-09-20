@@ -36,7 +36,11 @@
 
     .app__menu .playlist-menu {
         display: flex;
+        flex-direction: column;
+        gap: 12px;
     }
+
+    
 }  
 
 

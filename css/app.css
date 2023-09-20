@@ -89,6 +89,9 @@ a {
 	padding: 0 12px;
 }
 
+h4 {
+    text-transform: uppercase;
+}
 /* .col-4 {
 	flex-basis: 100%;
 }
@@ -126,6 +129,18 @@ a {
 .flex--shrink {
     flex-shrink: 1;
 }
+
+/* button */
+
+.button--create {
+    width: 36px;
+    aspect-ratio: 1;
+    background-color:#A3A3A3;
+    border: none;
+    display: inline-block;
+}
+
+
 
 /* -------- */
 
@@ -238,6 +253,18 @@ a {
     display: none;
 }
 
+.playlist-menu .playlist-menu-title {
+    color: var(--light);
+}
+
+.playlist-menu .playlist-name > li{
+    margin: 12px 0;
+}
+
+.playlist-name .button--create {
+    margin-right: 15px;
+
+}
 
 /* debug */
 
