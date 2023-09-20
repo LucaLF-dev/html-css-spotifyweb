@@ -195,8 +195,13 @@ a {
 
 /* app menu */
 
+.app__menu {
+    padding: 5px 10px;
+}
+
 .app__content .account-menu{
    margin-top: auto;
+  
 }
 
 .nav-menu .image-small {

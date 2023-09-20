@@ -4,24 +4,26 @@
 
 @media (min-width: 768px) { 
 
-     /* Menu app */
+        /* Menu app */
 
-     .app__content .app__menu {
-        width: 230px;
-        padding: 20px 0 5px 20px;
-     }
      
-     .nav-menu .image-small {
+    .app__content .app__menu {
+        width: 230px;
+        padding: 20px 10px 5px 20px;
+    }
+     
+    .nav-menu .image-small {
         display: none;
     }
 
-     .nav-menu .image-big {
+     
+    .nav-menu .image-big {
         width: 130px;
         height: 40px;
         display: block;
     }
     
- }  
+}  
 
 
 
