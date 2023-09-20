@@ -130,6 +130,15 @@ h4 {
     flex-shrink: 1;
 }
 
+.text--hide {
+    display: none;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+
 /* button */
 
 .button--create {
@@ -210,9 +219,12 @@ h4 {
 
 /* app menu */
 
+/* nav */
+
 .app__menu {
     padding: 5px 10px;
     color: #616161;
+    gap: 25px;
 }
 
 .app__content .account-menu{
@@ -249,6 +261,8 @@ h4 {
 
 }
 
+/* playlist menu */
+
 .app__menu .playlist-menu {
     display: none;
 }
@@ -264,6 +278,42 @@ h4 {
 .playlist-name .button--create {
     margin-right: 15px;
 
+}
+
+/* ------ */
+
+/* account menu */
+
+.account-menu .install-image {
+    width: 30px;
+    height: 30px;
+    color: #858585;
+    
+}
+
+.account-menu .download-image{
+    width: 17px;
+    height: 17px;
+    color: #858585;
+    margin-top: 50%;
+    margin-bottom: 50%;
+    transform: translate(50%, -50%);
+}
+
+.account-menu .install-text, .account-name {
+    padding-left: 10px;
+}
+
+.account-menu .account-image {
+    width: 30px;
+    aspect-ratio: 1;
+    border-radius: 999px;
+    background-color:#808080 ;
+    overflow: hidden;
+}
+
+.account-menu .menu-install {
+    margin-bottom: 15px;
 }
 
 /* debug */
@@ -289,7 +339,5 @@ h4 {
 	min-height: 100px;
 }
 
-.debug .app__menu > * {
-    border: 2px solid cornflowerblue ;
    
 }

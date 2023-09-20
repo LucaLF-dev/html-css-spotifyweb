@@ -11,7 +11,7 @@
 </head>
 <body>
     
-    <div id="app" class="flex direction--column debug">
+    <div id="app" class="flex direction--column ">
        
         <div class="app__content flex ">
             
@@ -58,7 +58,20 @@
                        <li><a href="#">Nome Playlist</a></li>
                     </ul>
                 </div>
-                <div class="account-menu">jnjnc</div>
+                <div class="account-menu flex wrap ">
+                    <div class="menu-install flex align--items-center ">
+                        <figure class="install-image">
+                            <img class="download-image" src="./img/download.svg" alt="">
+                        </figure>
+                        <p class="install-text text--hide">Installa app</p>
+                    </div>
+                    <div class="menu-account flex align--items-center ">
+                        <figure class="account-image">
+                            <img src="./img/profile.svg" alt="">
+                        </figure>
+                        <p class="account-name text--hide">John Doe</p>
+                    </div>
+                </div>
             </header>
            
             <main class="app__content-wrapper"></main>
