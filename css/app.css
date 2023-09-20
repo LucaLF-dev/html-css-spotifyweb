@@ -139,6 +139,7 @@ h4 {
 }
 
 
+
 /* button */
 
 .button--create {
@@ -148,7 +149,6 @@ h4 {
     border: none;
     display: inline-block;
 }
-
 
 
 /* -------- */
@@ -313,8 +313,18 @@ h4 {
 }
 
 .account-menu .menu-install {
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
+
+.menu-link {
+    position: relative;
+}
+
+.left--before_green, .top--before_grey{
+    position: relative;
+}
+
+
 
 /* debug */
 
@@ -340,4 +350,3 @@ h4 {
 }
 
    
-}

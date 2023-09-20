@@ -43,7 +43,27 @@
     .account-menu .install-text, .account-name {
       display: block;
     }
+    
+    .left--before_green::before {
+        content:'';
+        display: block;
+        position: absolute;
+        background-color:#ADFF2F;
+        width: 3px;
+        height:35px ;
+        top: -5px;
+        left: -20px; 
+    }
+
+    .top--before_grey::before {
+        content:'';
+        position: absolute;
+        background-color:#717171;
+        width: 190px;
+        height: 1px;
+        bottom: 45px;
        
+      }
 }  
 
 
