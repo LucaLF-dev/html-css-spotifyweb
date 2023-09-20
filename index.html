@@ -11,22 +11,28 @@
 </head>
 <body>
     
-    <div id="container-viewport" class="display--flex direction--column debug">
+    <div id="app" class="flex direction--column debug">
        
-        <main class="app__content container-large display--flex direction--row">
+        <div class="app__content flex ">
             
-            <aside class="app__menu container-menu flex--shrink"></aside>
+            <header class="app__menu flex direction--column">
+                <nav class="nav-menu ">
+                    <figure class="logo-image">
+                        <img class="image-small" src="./img/logo-small.svg" alt="">
+                        <img class="image-big" src="./img/logo.svg" alt="">
+                    </figure>
+                </nav>
+                <div class="playlist-menu">kmcmke</div>
+                <div class="account-menu">jnjnc</div>
+            </header>
            
-            <div class="app__content container-content">
-                <div class="content__bar-upgrade"></div>
-                <div class="content__section-wrapper"></div>
-            </div>
+            <main class="app__content-wrapper"></main>
         
-        </main>
+        </div>
 
-        <aside class="app__toolbar container-toolbar display--flex justify--between">
-            <div class="toolbar toolbar-song__preview display--flex">
-                <ul class="display--flex">
+        <aside class="app__toolbar  flex justify--between">
+            <div class="toolbar toolbar-song__preview flex">
+                <ul class="flex">
                     <li class="icon-left">
                         <figure class="toolbar-song-image">
                            <img class="song-image" src="./img/sinister.jpeg" alt=""></li>
@@ -42,7 +48,7 @@
                 </ul>
             </div>
             
-            <div class="toolbar toolbar-button display--flex">
+            <div class="toolbar toolbar-button flex">
                  <div class="button-list ">
                     <ul class="button-song ">
                         <li>
@@ -72,7 +78,7 @@
                  </div>
             </div>
            
-            <div class="toolbar toolbar-volume display--flex">
+            <div class="toolbar toolbar-volume flex">
                 <ul class="display--flex">
                     <li class="icon-right"><i class="fa-solid fa-bars" style="color: #ffffff;"></i></li>
                     <li class="icon-right"><i class="fa-solid fa-desktop" style="color: #ffffff;"></i></li>
