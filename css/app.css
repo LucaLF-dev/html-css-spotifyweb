@@ -56,16 +56,19 @@ a {
 .app__toolbar,
 .app__content,
 .app__menu{
-    flex-shrink: 1;
+    overflow: hidden;
 }
 
 .app__content {
+    width: 100%;
     flex-grow: 1;
+  
 }
 
 .app__content-wrapper {
     flex-grow: 1;
     background-color:var(--grey-light);
+    overflow: hidden;
 }
 
 .app__toolbar{
@@ -128,6 +131,10 @@ h4 {
 
 .flex--shrink {
     flex-shrink: 1;
+}
+
+.justify--center {
+    justify-content: center;
 }
 
 .text--hide {
@@ -342,14 +349,17 @@ h4 {
 /* BANNER UPGRADE */
 
 .app__content-wrapper {
-    width: 100%;
     position: relative;
     
 }
 
 .app__content-wrapper .banner__upgrade {
     background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    right: 0;
     height: 95px;
+    width: 100%;
     
 }
 
@@ -358,28 +368,18 @@ h4 {
     padding: 20px 18px;
 }
 
-.app__content-wrapper .app__content{
-    overflow: hidden;
+.app__content-wrapper .app__content {
+    padding-top: 90px ;
 }
 
-/* .scrollbar-wrapper {
-  position:absolute;
-  background-color: white;
-  width: 11px;
-  height: 100%;
-  top: 0;
-  right: 0;
-} */
- /* .scrollbar { 
-	height: 100%;
-	width: 9px;
-	background: black;
-    position: absolute;
-    top: 1px;
-    right: px;
-}  */
-
-
+.nav__app-content .nav__content {
+    gap: 25px;
+    padding:22px 0 ;
+}
+ 
+.nav__content .nav-items > a {
+   text-transform: uppercase;
+}
 /* debug */
 
 
