@@ -68,7 +68,7 @@ a {
 .app__content-wrapper {
     flex-grow: 1;
     background-color:var(--grey-light);
-    overflow: hidden;
+    overflow: auto;
 }
 
 .app__toolbar{
@@ -242,9 +242,11 @@ h4 {
 /* nav */
 
 .app__menu {
-    padding: 5px 10px;
+    width: 90px;
+    padding: 5px 5px;
     color: #616161;
     gap: 25px;
+    z-index: 2;
 }
 
 .app__content .account-menu{
@@ -355,7 +357,7 @@ h4 {
 
 .app__content-wrapper .banner__upgrade {
     background-color: rgba(0,0,0,0.5);
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     height: 95px;
@@ -367,6 +369,8 @@ h4 {
     justify-content: end;
     padding: 20px 18px;
 }
+
+
 
 /* APP CONTENT */
 
