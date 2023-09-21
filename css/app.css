@@ -385,6 +385,28 @@ h4 {
    color: #6e6e6e;
    font-size: 15px;
 }
+
+.card  .card-description {
+    max-width: 200px;
+    aspect-ratio: 1;
+}
+
+.card  .card-title > * {
+    text-align: center;
+    padding-top: 20px ;
+}
+
+.row-music .col {
+    flex-basis: 50%;
+}
+
+.row-title {
+    margin-bottom: 40px ;
+}
+
+.row-music .col-6 {
+    flex-basis: 50%;
+}
 /* debug */
 
 
