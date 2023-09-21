@@ -374,11 +374,14 @@ h4 {
 
 .nav__app-content .nav__content {
     gap: 25px;
-    padding:22px 0 ;
+    padding:22px 0;
+    flex-wrap: wrap;
 }
  
 .nav__content .nav-items > a {
    text-transform: uppercase;
+   color: #6e6e6e;
+   font-size: 16px;
 }
 /* debug */
 
