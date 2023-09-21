@@ -387,18 +387,42 @@ h4 {
 }
 
 .card  .card-description {
-    max-width: 200px;
+    max-width: 100%;
     aspect-ratio: 1;
 }
 
 .card  .card-title > * {
     text-align: center;
-    padding-top: 20px ;
+    padding-top: 10px ;
+}
+
+.card-title > h2 {
+    font-size: 18px;
+}
+
+.card-title > p {
+    font-size: 14px;
+    color: #9b9b9b;
 }
 
 .row-music .col {
     flex-basis: 50%;
 }
+
+.col-title > p {
+    padding-top: 10px;
+    color: #9b9b9b;
+    font-size: 14px;
+}
+
+.row-music .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
 .row-title {
     margin-bottom: 40px ;
@@ -406,6 +430,10 @@ h4 {
 
 .row-music .col-6 {
     flex-basis: 50%;
+}
+
+section {
+    margin-bottom: 35px;
 }
 /* debug */
 
