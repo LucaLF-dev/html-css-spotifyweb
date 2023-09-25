@@ -368,7 +368,13 @@ h4 {
 .banner__upgrade .button {
     justify-content: end;
     padding: 20px 18px;
+    transition: transform 1s;
 }
+
+.banner__upgrade .button:hover {
+    transform: scale(1.1);
+}
+
 
 
 
@@ -383,7 +389,19 @@ h4 {
     padding:22px 0;
     flex-wrap: wrap;
 }
+
+.nav__app-content .nav__content:hover {
+    color: white;
+}
  
+.nav__app-content .nav__content{
+    content: '';
+    height: 2px;
+    background-color: greenyellow;
+    width: 60px;
+    display: inline-block;
+    text-align: center;
+}
 .nav__content .nav-items > a {
    text-transform: uppercase;
    color: #6e6e6e;
@@ -442,6 +460,8 @@ h4 {
 section {
     margin-bottom: 35px;
 }
+
+
 /* debug */
 
 
